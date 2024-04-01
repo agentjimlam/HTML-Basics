@@ -39,8 +39,13 @@
 <!-- Is it correct to say that the <body> element is nested within the <html> element? 
 Answer: That is correct! The <html> tag is the root element of every page and it should always have <head> and <body> child elements. The <head> and <body> elements are siblings to each other and children to the <html> parent.-->
 <!--  What is the point of nesting the <p> element in a <div> element? 
-Answer :In this case, this is done purely for demonstrative purpose. In the future you will find that <div> elements are often used to group related content. This can serve to give a page some added structure and to allow for more modular styling. -->
+Answer: In this case, this is done purely for demonstrative purpose. In the future you will find that <div> elements are often used to group related content. This can serve to give a page some added structure and to allow for more modular styling. -->
 
+<!-- Page 5/16 Questions -->
+<!-- I thought that CSS controlled the presentation of a page but it looks like heading elements have different sizes. Isn’t font size more presentation than structure?
+Answer: Good observation! You are correct in that font size is a presentational aspect of a page and CSS defines how our pages look. The font size of the text contained within a heading element is controlled by the browser’s default style sheet. 
+Developers can overwrite this default style sheet by creating their own custom style sheets. To learn more about style sheets, check out the Learn CSS course.
+AKA... The font size of Heading elements in html affects font size when you translate it through a CSS style sheet/template. Like installing graphic game mod -->  
 
 
 </html>
