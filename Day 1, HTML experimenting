@@ -47,5 +47,13 @@ Answer: Good observation! You are correct in that font size is a presentational 
 Developers can overwrite this default style sheet by creating their own custom style sheets. To learn more about style sheets, check out the Learn CSS course.
 AKA... The font size of Heading elements in html affects font size when you translate it through a CSS style sheet/template. Like installing graphic game mod -->  
 
+<!-- Page 6/16 Questions -->
+<!-- Do <div> elements increase the complexity of our HTML structure? 
+Answer: Maybe but the whole point is for organising so you ahve better readability and targetability/finding of info. -->
+<!-- Why should we use divs if they don’t change things visually? I don’t see any visual or sectional changes to the text when I add the <div> tags. Is there supposed to be some change in appearance?
+Answer: div (short for division) allows us to divide our page into different sections, to position this sections. Divs are very useful. The change might not be the most visual one, doesn’t make it less useful. 
+if we only used text, everything would just be from top to bottom. Look at this forum, imaging where divs might be (to divide different replies for example), 
+or to place the scroll bar on the right hand side of the page and staying there even though we are scrolling through the replies. -->
+
 
 </html>
