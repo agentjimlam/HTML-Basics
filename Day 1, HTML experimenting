@@ -55,5 +55,11 @@ Answer: div (short for division) allows us to divide our page into different sec
 if we only used text, everything would just be from top to bottom. Look at this forum, imaging where divs might be (to divide different replies for example), 
 or to place the scroll bar on the right hand side of the page and staying there even though we are scrolling through the replies. -->
 
+<!-- Page 7/16 Questions -->
+<!-- https://developers.google.com/style/html-formatting -->
+<!-- What kind of information do attributes provide? 
+Answer: There are several different types of attributes which can extend tags in different ways. Usually attributes either change an element’s behavior, provide metadata about the element, or provide labeling information about the element.
+For example, the id attribute uniquely identifies an element whereas the class attribute identifies a whole group of elements. This labeling information can then be used to target content for styling, scripting, or (for the id attribute) linking. -->
+
 
 </html>
