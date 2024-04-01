@@ -26,4 +26,21 @@
     <li>li look item 1</li>
     <li>li look item 2</li>
   </p>
+
+
+<!-- what is a web browser? browser is a piece of software which allows us to display content on the web-->
+
+<!-- Page 3/16 Questions -->
+<!-- when you type something outside <body> element and the line is printed, it's because the compiler auto-assume you meant to put it in the <body>, so it autocorrects. 
+
+<!-- Page 4/16 Questions -->
+<!-- <html> is the parent element of the <body> element = <body> element is nested within the <html>. Same thing -->
+<!-- Is it correct to say that the <body> element is nested within the <html> element? 
+Answer: That is correct! The <html> tag is the root element of every page and it should always have <head> and <body> child elements. The <head> and <body> elements are siblings to each other and children to the <html> parent.-->
+<!--  What is the point of nesting the <p> element in a <div> element? 
+Answer :In this case, this is done purely for demonstrative purpose. In the future you will find that <div> elements are often used to group related content. This can serve to give a page some added structure and to allow for more modular styling. -->
+
+
+
+
 </html>
