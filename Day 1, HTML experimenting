@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <h1>Jimmy <i>Lam</i></h1>
+
+  <a href="http://www.codecademy.com"> Yogabagaba </a>
+
+  <!-- Creating image links -->
+  <a href="http://www.codecademy.com">
+    <img src="logo.jpg" />Click this image
+  </a>
+
+  <!-- Creating text links -->
+  <a href="http://www.codecademy.com">Visit this site</a>
+
+  <img src="logo.png" alt="Codecademy logo" style="height:50%; width: 100%;" />
+  <br />
+
+  <title>Title look</title>
+  <br />
+
+  <p>
+    <i>i Look</i>
+    <!-- i element is used to set off HTML text, indicating idiomatic expressions, technical terms, taxonomical designations, and so on. This is commonly illustrated by displaying the text in italics. -->
+    <br />
+    <label> label look </label> <br />
+    <li>li look item 1</li>
+    <li>li look item 2</li>
+  </p>
+</html>
