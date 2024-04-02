@@ -25,9 +25,67 @@ Lastly, HTML code is always saved in a file with an .html extension.
 
 <!-- 1/14 Questions -->
 <!-- How does the browser know what language other documents are written in? For example, why doesn’t css need a doctype?
+Ans: DOCTYPE declarations are only required for html based documents. Other JavaScript or CSS files are actually loaded into the page with <link> or tags. 
+These tags signify the file type to the browser thereby allowing the browser to properly parse the file. -->
+
+<!-- Why is “DOCTYPE” uppercase but “html” lower? 
+<!-- Ans: In a word, convention.
+As for case sensitivity, it still applies where XML conforming documents are concerned. Guess what folks, JSX and React are XML conforming.
+
+If neither of those is a concern, then by all means continue with the assumption that case insensitity exists. We still come back to convention. The thing that can only be attributed to unwritten rules. Write HTML in UPPERCASE at one’s own peril.
+
+The thing to keep in mind is that the document type declararation is not HTML or XML. It is SGML, the parent schema of the whole shebang, and IT is case insensitive. After that, the other paradigms shed their own light.
+
+This is related to the question of... can attribute contain HTML tags?
+Ans: Yes, but if you deal with XML content, like JSX and React, it may produce invalid result.
+
+Note that not only is it possible to include markup inside attributes, but the HTML5 srcdoc attribute on the iframe element positively encourages it.
+Note, that when served with an XML content type (e.g. application/xhtml+xml), it is not valid, or even well-formed.
+-->
 
 
-DOCTYPE declarations are only required for html based documents. Other JavaScript or CSS files are actually loaded into the page with <link> or tags. 
-These tags signify the file type to the browser thereby allowing the browser to properly parse the file.
+
+<!--
+The <!DOCTYPE html> declaration provides the browser with two pieces of information (the type of document and the HTML version to expect), but it doesn’t actually add any HTML structure or content.
+
+***NOTE anything in line 1 is not a HTML element or tag. It is a document type decalaration that is telling the computer that what you're giving a html5 and it is looking at a html5 document 
+and for it to be translated to machine code/parsed accordingly. 
+
+To create HTML structure and content, we must add opening and closing <html> tags after declaring <!DOCTYPE html>:
+
+Anything between the opening <html> and closing </html> tags will be interpreted as HTML code. Without these tags, it’s possible that browsers could incorrectly interpret your HTML code.
+-->
+
+
+<!-- 2/14 Questions -->
+<!-- Without the html tags mentioned in this lesson, in what ways might the browser misinterpret our HTML code?
+Ans: The <html> tag is actually an example of an optional tag which means that there are situations in which it can be omitted. 
+Even though omitted optional tags will be inserted into the document by the browser and may not always be required, most developers would say that it is best practice to include these tags. 
+Including optional tags enhances readability, improves cross-browser support, and takes some burden off of the browser.
+
+In short, while the <html> tag can be omitted I do not believe it should be omitted. -->
+
+
+<!-- Why do we need the HTML tag after the declaration?
+Ans: The DTD (Document type declaration) is not HTML, but SGML. It tells the user agent that the root element of the document is <html></html>. 
+The de facto namespace is HTML5. Other than that the declaration has no part in DOM (Document Object Model).-->
+
+<!-- Why is the doctype a different color from the <html> tags? 
+Ans: for readability but NOTE Line 1 is not actually an HTML element or tag. As you discovered in the first exercise of this lesson, it is a declaration that lets the browser know that it is looking at an HTML5 document and it should be parsed accordingly.
+
+Text editors like the one you are using in this workspace often use different colors to help developers distinguish between different pieces of code and to aid in overall readability. -->
+
+
+<!-- 3/14 Questions -->
+
+
+
+
+
+
+
+
+
+
 
 
