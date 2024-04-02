@@ -9,7 +9,7 @@ HTML is composed of elements. These elements structure the webpage and define it
 
 The diagram to the right displays an HTML paragraph element. As we can see, the paragraph element is made up of:
 
-An opening tag (<p>)
+<!-- An opening tag (<p>) -->
 The content (“Hello World!” text)
 A closing tag (</p>)
 A tag and the content between it is called an HTML element. There are many tags that we can use to organize and display text and other types of content, like images.
