@@ -3,16 +3,17 @@ Learning HTML Codecademy HTML module
 
 
 
+<body>
+   <p> 
+     HTML is composed of elements. These elements structure the webpage and define its content. Let’s take a look at how they’re written.
+     The diagram to the right displays an HTML paragraph element. As we can see, the paragraph element is made up of:
 
+<ol>
+  <li>An opening tag "p"  </li>
+  <li>The content (“Hello World!” text) </li>
+  <li>A closing tag (/p) </li>
+</ol>
 
-HTML is composed of elements. These elements structure the webpage and define its content. Let’s take a look at how they’re written.
-
-The diagram to the right displays an HTML paragraph element. As we can see, the paragraph element is made up of:
-
-
-An opening tag (<p>)
-The content (“Hello World!” text)
-A closing tag (</p>)
 A tag and the content between it is called an HTML element. There are many tags that we can use to organize and display text and other types of content, like images.
 
 Let’s quickly review each part of the element pictured:
@@ -26,3 +27,6 @@ Opening Tag — the first HTML tag used to start an HTML element. The tag type i
 Content — The information (text or other elements) contained between the opening and closing tags of an HTML element.
 
 Closing tag — the second HTML tag used to end an HTML element. Closing tags have a forward slash (/) inside of them, directly after the left angle bracket.
+
+    </p>
+ </body>
