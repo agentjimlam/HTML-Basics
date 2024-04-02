@@ -9,7 +9,7 @@ Learning HTML Codecademy HTML module
      The diagram to the right displays an HTML paragraph element. As we can see, the paragraph element is made up of:
 
 <ol>
-  <li>An opening tag "p"  </li>
+  <li>An opening tag "<p>"  </li>
   <li>The content (“Hello World!” text) </li>
   <li>A closing tag (/p) </li>
 </ol>
