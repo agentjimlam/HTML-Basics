@@ -37,29 +37,165 @@
 <!-- Page 4/16 Questions -->
 <!-- <html> is the parent element of the <body> element = <body> element is nested within the <html>. Same thing -->
 <!-- Is it correct to say that the <body> element is nested within the <html> element? 
-Answer: That is correct! The <html> tag is the root element of every page and it should always have <head> and <body> child elements. The <head> and <body> elements are siblings to each other and children to the <html> parent.-->
+Ans: That is correct! The <html> tag is the root element of every page and it should always have <head> and <body> child elements. The <head> and <body> elements are siblings to each other and children to the <html> parent.-->
 <!--  What is the point of nesting the <p> element in a <div> element? 
-Answer: In this case, this is done purely for demonstrative purpose. In the future you will find that <div> elements are often used to group related content. This can serve to give a page some added structure and to allow for more modular styling. -->
+Ans: In this case, this is done purely for demonstrative purpose. In the future you will find that <div> elements are often used to group related content. This can serve to give a page some added structure and to allow for more modular styling. -->
+
+
 
 <!-- Page 5/16 Questions -->
 <!-- I thought that CSS controlled the presentation of a page but it looks like heading elements have different sizes. Isn’t font size more presentation than structure?
-Answer: Good observation! You are correct in that font size is a presentational aspect of a page and CSS defines how our pages look. The font size of the text contained within a heading element is controlled by the browser’s default style sheet. 
+Ans: Good observation! You are correct in that font size is a presentational aspect of a page and CSS defines how our pages look. The font size of the text contained within a heading element is controlled by the browser’s default style sheet. 
 Developers can overwrite this default style sheet by creating their own custom style sheets. To learn more about style sheets, check out the Learn CSS course.
 AKA... The font size of Heading elements in html affects font size when you translate it through a CSS style sheet/template. Like installing graphic game mod -->  
 
+
+
 <!-- Page 6/16 Questions -->
 <!-- Do <div> elements increase the complexity of our HTML structure? 
-Answer: Maybe but the whole point is for organising so you ahve better readability and targetability/finding of info. -->
+Ans: Maybe but the whole point is for organising so you ahve better readability and targetability/finding of info. -->
 <!-- Why should we use divs if they don’t change things visually? I don’t see any visual or sectional changes to the text when I add the <div> tags. Is there supposed to be some change in appearance?
-Answer: div (short for division) allows us to divide our page into different sections, to position this sections. Divs are very useful. The change might not be the most visual one, doesn’t make it less useful. 
+Ans: div (short for division) allows us to divide our page into different sections, to position this sections. Divs are very useful. The change might not be the most visual one, doesn’t make it less useful. 
 if we only used text, everything would just be from top to bottom. Look at this forum, imaging where divs might be (to divide different replies for example), 
 or to place the scroll bar on the right hand side of the page and staying there even though we are scrolling through the replies. -->
 
+
+
+<!-- Is two space indentation for nested elements standard practice?
+Ans: No standard practice on how many space or tab used. https://developers.google.com/style/html-formatting. just use 2 spaces indentation safer, not tab, 
+as different text editors read tab differently, and some Markdown features expect spaces not tab, fuck up your code -->
+
+<body>
+  <h1>The Brown Bear</h1>
+  <div id="introduction">
+    <h2>About Brown Bears</h2>
+    <h3>Species</h3>
+    <h3>Features</h3>
+  </div>
+  <div id="habitat">
+    <h2>Habitat</h2>
+    <h3>Countries with Large Brown Bear Populations</h3>
+    <h3>Countries with Small Brown Bear Populations</h3>
+  </div>
+  <div id="media">
+    <h2>Media</h2>
+  </div>
+</body>
+
+
 <!-- Page 7/16 Questions -->
-<!-- https://developers.google.com/style/html-formatting -->
+<!-- Can id attributes only be used on <div> tags? 
+Ans: There are several different types of attributes which can extend tags in different ways. Usually attributes either change an element’s behavior, provide metadata about the element, or provide labeling information about the element. 
+For example, the id attribute uniquely identifies an element whereas the class attribute identifies a whole group of elements. 
+This labeling information can then be used to target content for styling, scripting, or (for the id attribute) linking. For more information about these attributes, check out classes vs ids-->
 <!-- What kind of information do attributes provide? 
-Answer: There are several different types of attributes which can extend tags in different ways. Usually attributes either change an element’s behavior, provide metadata about the element, or provide labeling information about the element.
+Ans: There are several different types of attributes which can extend tags in different ways. Usually attributes either change an element’s behavior, provide metadata about the element, or provide labeling information about the element.
 For example, the id attribute uniquely identifies an element whereas the class attribute identifies a whole group of elements. This labeling information can then be used to target content for styling, scripting, or (for the id attribute) linking. -->
+
+
+
+<!-- Page 8/16 Questions -->
+<!-- What exactly is span used for?
+Ans: Span tag is an empty box for you to put the CSS in, and it transform into the style. Both <div> and <span> are generic. What is difference between <div> and <span>? 
+Ans: <div> is for grouping larger chunks of information and code. <Div> used for block line elements, with a line break before and after them usually. <span> is for small chunk of html, inside a line.
+“mark it up” means = to separate, to target it later -->
+
+
+
+<!-- Page 9/16 Questions -->
+<!-- Why does the content of a web page need to be described with tags?
+Ans: For the machine to read and understand lah -->
+<!-- What does it mean for a tag to be rendered?
+Ans: A key component of a web browser is its rendering engine. The rendering engine takes HTML code and renders it or interprets it into what we see visually on the page. 
+eg. <em> tag tells rendering machine to display italics for that tag's contents/words -->
+<!-- What is a style sheet?
+Ans: style sheet is a CSS file that specifies the presentation/style of our content. 
+
+
+<!-- Page 10/16 Questions -->
+<!-- If both <br> and <br/> are valid syntaxes, which one should I use?
+Ans: both can -->
+<!-- Why do we need to use 2-space indentations?
+Ans: So it's easier for you and others to read and debug
+<!-- Are line breaks the standard way of manipulating the position of HTML elements?
+Ans: sepration of concern concept. HTML for HTML stuff, CSS for all the positioning and style stuff, so your codes not messy/hard to read.
+
+<body>
+  <h1>The Brown Bear</h1>
+  <div id="introduction">
+    <h2>About Brown Bears</h2>
+    <p>The brown bear (<em>Ursus arctos</em>) is native to parts of northern Eurasia and North America. Its conservation status is currently <strong>Least Concern</strong>. <br><br>There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+    <h3>Species</h3>
+    <h3>Features</h3>
+    <p>Brown bears are not always completely brown. Some can be reddish or yellowish. They have very large, curved claws and huge paws. Male brown bears are often 30% larger than female brown bears. They can range from 5 feet to 9 feet from head to toe.</p>
+  </div>
+  <div id="habitat">
+    <h2>Habitat</h2>
+    <h3>Countries with Large Brown Bear Populations</h3>
+    <h3>Countries with Small Brown Bear Populations</h3>
+    <p>Some countries with smaller brown bear populations include Armenia, Belarus, Bulgaria, China, Finland, France, Greece, India, Japan, Nepal, Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.</p>
+  </div>
+  <div id="media">
+    <h2>Media</h2>
+  </div>
+</body>
+
+
+<!-- Page 11/16 Questions -->
+<!-- What happens if we put raw text directly in the <ul> element?
+Ans: The dot will be missing. <ul> makes the dot list. <ol> makes the numbered list. -->
+<!-- <li> can put outside <ul> or <ol>?
+Ans: The <li> element can be a direct child of either the <ul> or the <ol> elements but it should never exist outside of either of these parent elements. -->
+<!-- Is there a way to have the list items sit flush against the page like the rest of the text?
+Ans: Yes. Most browsers use a default style sheet to apply some padding to the left of the <ul> and <ol> elements. Developers can overwrite this default padding by creating their own custom CSS style sheets. -->
+
+
+<ul>
+  <li>Limes</li>
+  <li>Tortillas</li>
+  <li>Chicken</li>
+</ul>
+
+body>
+  <h1>The Brown Bear</h1>
+  <div id="introduction">
+    <h2>About Brown Bears</h2>
+    <p>The brown bear (<em>Ursus arctos</em>) is native to parts of northern Eurasia and North America. Its conservation status is currently <strong>Least Concern</strong>. <br><br> There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+    <h3>Species</h3>
+      <ul>
+        <li>Arctos</li>
+        <li>Collarus</li>
+        <li>Horribilis</li>
+        <li>Nelsoni (extinct)</li>
+      </ul>
+    <h3>Features</h3>
+    <p>Brown bears are not always completely brown. Some can be reddish or yellowish. They have very large, curved claws and huge paws. Male brown bears are often 30% larger than female brown bears. They can range from 5 feet to 9 feet from head to toe.</p>
+  </div>
+  <div id="habitat">
+    <h2>Habitat</h2>
+    <h3>Countries with Large Brown Bear Populations</h3>
+    <h3>Countries with Small Brown Bear Populations</h3>
+    <p>Some countries with smaller brown bear populations include Armenia, Belarus, Bulgaria, China, Finland, France, Greece, India, Japan, Nepal, Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.</p>
+  </div>
+  <div id="media">
+    <h2>Media</h2>
+  </div>
+</body>
+
+
+<!-- Page 12/16 Questions -->
+<!-- Is there a way to increase the space between the number and the text of each <li>?
+Ans: Yes, via CSS. -->
+
+<ol>
+  <li>Preheat the oven to 350 degrees.</li>
+  <li>Mix whole wheat flour, baking soda, and salt.</li>
+  <li>Cream the butter, sugar in separate bowl.</li>
+  <li>Add eggs and vanilla extract to bowl.</li>
+</ol>
+
+
+
 
 
 </html>
