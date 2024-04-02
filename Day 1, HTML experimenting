@@ -98,7 +98,8 @@ For example, the id attribute uniquely identifies an element whereas the class a
 <!-- What exactly is span used for?
 Ans: Span tag is an empty box for you to put the CSS in, and it transform into the style. Both <div> and <span> are generic. What is difference between <div> and <span>? 
 Ans: <div> is for grouping larger chunks of information and code. <Div> used for block line elements, with a line break before and after them usually. <span> is for small chunk of html, inside a line.
-“mark it up” means = to separate, to target it later -->
+“mark it up” means = to separate, to target it later.
+Only elements can be mark up, not attributes-->
 
 
 
@@ -174,6 +175,11 @@ body>
   <div id="habitat">
     <h2>Habitat</h2>
     <h3>Countries with Large Brown Bear Populations</h3>
+      <ol>
+        <li>Russia</li>
+        <li>United States</li>
+        <li>Canada</li>
+      </ol>
     <h3>Countries with Small Brown Bear Populations</h3>
     <p>Some countries with smaller brown bear populations include Armenia, Belarus, Bulgaria, China, Finland, France, Greece, India, Japan, Nepal, Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.</p>
   </div>
@@ -194,6 +200,64 @@ Ans: Yes, via CSS. -->
   <li>Add eggs and vanilla extract to bowl.</li>
 </ol>
 
+
+<!-- Page 12/16 Questions -->
+<!-- it's a repeat of page 11 -->
+
+<!-- Page 13/16 Questions -->
+<!-- How can I store my own images online?
+Ans: There are sites that allow you to upload your images to the web. Once your image is uploaded, you can then use its web address as the value for the <img> element’s src attribute. 
+More commonly, images and project assets are stored within a folder that also contains our HTML document. 
+This allows developers to create paths to be used as src values that are relative to the HTML document. 
+In other words, images and HTML files often exist on the same server or computer. -->
+
+<!-- The <img> tag allows you to add an image to a web page. Most elements require both opening and closing tags, but the <img> tag is a self-closing tag. Note that the end of the <img> tag has a forward slash /. 
+Self-closing tags may include or omit the final slash — both will render properly. -->
+
+<img src="image-location.jpg" /> 
+<img src="image-location.jpg" >
+<!-- both also can -->
+<!-- The <img> tag has a required attribute called src. The src attribute must be set to the image’s source, or the location of the image. 
+In this case, the value of src must be the uniform resource locator (URL) of the image. A URL is the web address or local address where a file is stored.-->
+
+
+  <div id="media">
+    <h2>Media</h2>
+      <img src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg" />
+  </div>
+
+
+<!-- Page 14/16 Questions -->
+<!-- Should the alt attribute show up when hovering on the image?
+Ans: The alt attribute is not meant to be visible unless there’s an issue loading the image. -->
+
+<-- alt and title are not the same thing, and not interchangeable. Search engines and screen readers can see both. ALT is intended to be brief and concise, and should never be used for SEO purposes. 
+They are a requirement under accessibility guidelines. TITLE can be more descriptive, give more detail and be less brief. It can be leveraged for SEO.-->
+
+<!-- The alt attribute, which means alternative text, brings meaning to the images on our sites. 
+The alt attribute can be added to the image tag just like the src attribute. The value of alt should be a description of the image. -->
+
+<img src="#" alt="A field of yellow sunflowers" />
+
+<p>The alt attribute also serves the following purposes:
+    <ul>
+      <li>If an image fails to load on a web page, a user can mouse over the area originally intended for the image and read a brief description of the image.</li>
+      <li>This is made possible by the description you provide in the alt attribute.</li>
+      <li>Visually impaired users often browse the web with the aid of screen reading software. When you include the alt attribute, the screen reading software can read the image’s description out loud to the visually impaired user.</li>
+      <li>The alt attribute also plays a role in Search Engine Optimization (SEO), because search engines cannot “see” the images on websites as they crawl the internet. Having descriptive alt attributes can improve the ranking of your site.</li>
+    </ul>
+
+
+<!-- Page 15/16 Qiestions-->
+<!-- What is src?
+Ans: src = source. Specifies the location of a digital source. -->
+<!-- Why are some tags self-closing but others are not?
+Ans: Self-closing tags represent void elements. Void elements like img and br cannot contain any content. All other tags may (but are not required to) contain content. -->
+
+
+<video src="myVideo.mp4" width="320" height="240" controls>
+  Video not supported
+</video>
 
 
 
