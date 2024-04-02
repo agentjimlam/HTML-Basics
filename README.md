@@ -30,7 +30,8 @@ Closing tag — the second HTML tag used to end an HTML element. Closing tags ha
 
     </p>
 
-<P>
+   <p> I put the rest of notes, review notes in comment tag. Open editor to view </p>
+<!--
    Let’s review what you’ve learned so far:
 
    HTML stands for HyperText Markup Language and is used to create the structure and content of a webpage.
@@ -43,6 +44,6 @@ Closing tag — the second HTML tag used to end an HTML element. Closing tags ha
    Line breaks are created with the <br> tag.
    Ordered lists (<ol>) are numbered and unordered lists (<ul>) are bulleted.
    Images (<img>) and videos (<video>) can be added by linking to an existing source.
-</P>
+-->
     
  </body>
