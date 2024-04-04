@@ -45,5 +45,18 @@ Closing tag — the second HTML tag used to end an HTML element. Closing tags ha
    Ordered lists (<ol>) are numbered and unordered lists (<ul>) are bulleted.
    Images (<img>) and videos (<video>) can be added by linking to an existing source.
 -->
+
+Special characters in HTML, such as '<', '>', '"' and '&' can be printed using the following format:
+
+&name;
+where name would be replaced by a character name. The most common would then be
+
+&lt;   =   <    (less than)
+&gt;   =   >    (greater than)
+&amp;  =   &    (ampersand)
+&quot; =   "    (double quote)
+So to write <html> you would write in HTML:
+
+&lt;html&gt;
     
  </body>
