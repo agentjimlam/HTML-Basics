@@ -46,6 +46,8 @@ Closing tag — the second HTML tag used to end an HTML element. Closing tags ha
    Images (<img>) and videos (<video>) can be added by linking to an existing source.
 -->
 
+<p>How to print special characters in comment tag</p>
+<!--
 Special characters in HTML, such as '<', '>', '"' and '&' can be printed using the following format:
 
 &name;
@@ -58,5 +60,5 @@ where name would be replaced by a character name. The most common would then be
 So to write <html> you would write in HTML:
 
 &lt;html&gt;
-    
+-->
  </body>
