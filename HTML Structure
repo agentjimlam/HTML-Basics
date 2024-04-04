@@ -206,6 +206,124 @@ no / = when you referencing an item that is in same folder as the page where the
 <!-- Just one question on what other elements can you put in <a> tags. Basically all the things you've seen used as links on websites, words, images, block lines/paragraphs. 
 -->
 
+<!-- Linking to Same page, we use #
+
+Biggo explanation:
+In order to link to a target on the same page, we must give the target an id, like this:
+
+<p id="top">This is the top of the page!</p>
+<h1 id="bottom">This is the bottom! </h1>
+
+In this example, the <p> element is assigned an id of “top” and the <h1> element is assigned “bottom.” An id can be added to most elements on a webpage.
+
+An id should be descriptive to make it easier to remember the purpose of a link. The target link is a string containing the # character and the target element’s id.
+
+<ol>
+ <li><a href="#top">Top</a></li>
+ <li><a href="#bottom">Bottom</a></li>
+</ol>
+
+In the example above, the links to <p id="top"> and <h1 id="bottom"> are embedded in an ordered list. These links appear in the browser as a numbered list of links. An id is especially helpful for organizing content belonging to a div!
+eg. 
+-->
+
+
+<!-- 10/14 Questions -->
+<-- This exercise nests anchors within <li> elements. Wouldn’t it make more sense to make the entire <li> a clickable anchor by nesting the <li> in anchor tags instead?
+Ans: This does make sense. However, this would be invalid syntax and should be avoided. As specified in mozilla docs, <li> elements should always be direct children of either <ol>, <ul> or the experimental <menu> tags.
+-->
+
+
+
+<!-- Page 14/14, final -->
+
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Brown Bears</title>
+</head>
+
+<body>
+  <nav>
+    <a href="./index.html">Brown Bear</a>
+    <a href="./aboutme.html">About Me</a>
+  </nav>
+  <h1>The Brown Bear</h1>
+  <nav>
+    <ul>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#habitat">Habitat</a></li>
+      <li><a href="#media">Media</a></li>
+    </ul>
+  </nav>
+  <div id="introduction">
+    <h2>About Brown Bears</h2>
+    <p>The brown bear (<em>Ursus arctos</em>) is native to parts of northern Eurasia and North America. Its conservation status is currently <strong>Least Concern</strong>.<br /><br /> There are many subspecies within the brown bear species, including the
+      Atlas bear and the Himalayan brown bear.</p>
+    <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Learn More</a>
+    <h3>Species</h3>
+    <ul>
+      <li>Arctos</li>
+      <li>Collarus</li>
+      <li>Horribilis</li>
+      <li>Nelsoni (extinct)</li>
+    </ul>
+    <h3>Features</h3>
+    <p>Brown bears are not always completely brown. Some can be reddish or yellowish. They have very large, curved claws and huge paws. Male brown bears are often 30% larger than female brown bears. They can range from 5 feet to 9 feet from head to toe.</p>
+  </div>
+  <div id="habitat">
+    <h2>Habitat</h2>
+    <h3>Countries with Large Brown Bear Populations</h3>
+    <ol>
+      <li>Russia</li>
+      <li>United States</li>
+      <li>Canada</li>
+    </ol>
+    <h3>Countries with Small Brown Bear Populations</h3>
+    <p>Some countries with smaller brown bear populations include Armenia, Belarus, Bulgaria, China, Finland, France, Greece, India, Japan, Nepal, Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.</p>
+  </div>
+  <div id="media">
+    <h2>Media</h2>
+    <img src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg" />
+    <video src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" height="240" width="320" controls>Video not supported</video>
+  </div>
+</body>
+
+</html>
+
+
+
+
+<!-- Aboutme.html -->
+
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>About Me</title>
+</head>
+<body>
+  <nav>
+    <a href="/">Brown Bear</a>
+    <!-- web browsers respond to index.html and / the same way -->
+    <a href="./aboutme.html">About Me</a>
+  </nav>
+
+<h1>About Me</h1>
+<h3>Michael Doliner</h3>
+<img src="https://content.codecademy.com/courses/web-101/htmlcss1-img_brown-bear-2.jpeg">
+
+  <!-- A section that describes the brown bear -->
+  <p>Hey, my name is Michael, and there's little I find more exciting than bears! I've spent most of my young life traveling to the edges of Earth to take videos of these wonderful creatures.   <br /> <br />
+
+  	Family, Country, Bears, <br /> <br />
+    Michael D.
+
+  </p>
+</body>
+</html>
 
 
 
