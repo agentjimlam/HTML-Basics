@@ -47,6 +47,7 @@ Closing tag — the second HTML tag used to end an HTML element. Closing tags ha
 -->
 
 <p>How to print special characters, see comment tag</p>
+
 <!--
 Special characters in HTML, such as '<', '>', '"' and '&' can be printed using the following format:
 
@@ -61,7 +62,7 @@ So to write <html> you would write in HTML:
 
 &lt;html&gt;
 -->
- </body>
+
 
 
 
@@ -78,3 +79,6 @@ So to write <html> you would write in HTML:
    <li>Indentation also helps make code easier to read. It makes parent-child relationships visible.</li>
    <li>Comments are written in HTML using the following syntax: <!-- comment -->.</li>
 </p>
+
+
+ </body>
