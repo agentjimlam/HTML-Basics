@@ -124,6 +124,48 @@ like https://www.codecademy.com/learn/learn-html which is stored in a different 
 <!-- Do absolute paths always point to remote files or assets?
 Ans: No. Absolute paths may also be used to point to local files or assets. However, when linking to local files it generally makes more sense to store files or assets within the project directory 
 itself and then use a relative path to point to it. To learn more about paths, check out this StackExchange thread.  https://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/ -->
+
+
+
+<!-- Is it necessary to use `./` to link local files? Do we need the dot, "./about.html"?
+Ans: No. not necessary. 
+
+Do we need the dot, example  "./about.html". Can we use "/about.html" without the dot?
+Ans: The dot represent the current directory, it can be without but then it becomes "about.html"
+"/about.html" would mean looking in the root directory.
+
+How do we emulate web server behavior in our local site project? Answer: relative path addressing.
+
+absolute path  =>  begins at site root up to resource
+relative path  =>  traverses backward from request
+Bottom line, use relative path and memorize the site architecture so you instantly know how many levels to jump back to access folders from where that resource is located in the site volume.
+
+site/
++ css/
++ level1/
+  + level2/
+    + level3/
+On the site root, the path to the css folder will be,
+
+href="css/style.css"
+On level1 it will be,
+
+href="../css/style.css"
+On level2 it will be,
+
+href="../../css/style.css"
+On level3 it will be,
+
+href="../../../css/style.css"
+It may seem an inconvenience but sure saves us a bother on our local machine if we are working directly with HTML, a site project, and using a conventional text editor that can only launch in a browser, rather an IDE mapped environment.
+
+
+https://discuss.codecademy.com/t/is-it-necessary-to-use-to-link-local-files/472222/8?_gl=1*awr8h0*_ga*ODk0NDg4NDY4Ni4xNzExNzExNjU5*_ga_3LRZM6TM9L*MTcxMjIyMDAzNi4xMy4xLjE3MTIyMjAxNjEuNDMuMC4w
+-->
+
+
+
+
 <!-- What are the advantages of using relative paths? 
 Ans: 
 
@@ -137,11 +179,10 @@ c:\users\username\pictures\img1.jpg
 if I then move the image from pictures to documents, the absolute path would also break.
 
 relative paths are better, given we can then move the entire project to a different computer (which very likely has a different username) and we don’t have to go and find all the absolute paths with the username in it
+
 https://discuss.codecademy.com/t/what-are-the-advantages-of-using-relative-paths/347179?_gl=1*12olqaw*_ga*ODk0NDg4NDY4Ni4xNzExNzExNjU5*_ga_3LRZM6TM9L*MTcxMjIyMDAzNi4xMy4xLjE3MTIyMjAyOTEuNDAuMC4w
 -->
 
-
-https://discuss.codecademy.com/t/is-it-necessary-to-use-to-link-local-files/472222/8?_gl=1*awr8h0*_ga*ODk0NDg4NDY4Ni4xNzExNzExNjU5*_ga_3LRZM6TM9L*MTcxMjIyMDAzNi4xMy4xLjE3MTIyMjAxNjEuNDMuMC4w
 
 
 
@@ -149,15 +190,22 @@ https://discuss.codecademy.com/t/is-it-necessary-to-use-to-link-local-files/4722
 <!--  ../ in front of the filename tells the browser to look in the folder above the current folder.-->
 
 
-<!--
+<!-- Summary on Relative Path usage -->
 
-./ = look in current folder 
+./ = look in same/current folder. The dot represents the current directory
 ../ = look in the folder above the current 
+
+only / = looking in the root directory. "/about.html" would mean looking in the root directory.
 
 no / = when you referencing an item that is in same folder as the page where the link appears. eg. <a href="linkhere.html">Click Me</a>
 
 
 -->
+
+<!-- 9/14 Questions -->
+<!-- Just one question on what other elements can you put in <a> tags. Basically all the things you've seen used as links on websites, words, images, block lines/paragraphs. 
+-->
+
 
 
 
