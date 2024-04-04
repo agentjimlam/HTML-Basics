@@ -121,11 +121,31 @@ like https://www.codecademy.com/learn/learn-html which is stored in a different 
 
 
 <!-- 8/14 Questions -->
+<!-- Do absolute paths always point to remote files or assets?
+Ans: No. Absolute paths may also be used to point to local files or assets. However, when linking to local files it generally makes more sense to store files or assets within the project directory 
+itself and then use a relative path to point to it. To learn more about paths, check out this StackExchange thread.  https://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/ -->
+<!-- What are the advantages of using relative paths? 
+Ans: 
+
+examples of absolute path:
+
+# windows
+c:\users\username\pictures\img1.jpg
+# *nix
+/home/username/pictures/img1.jpg
+
+if I then move the image from pictures to documents, the absolute path would also break.
+
+relative paths are better, given we can then move the entire project to a different computer (which very likely has a different username) and we don’t have to go and find all the absolute paths with the username in it
+https://discuss.codecademy.com/t/what-are-the-advantages-of-using-relative-paths/347179?_gl=1*12olqaw*_ga*ODk0NDg4NDY4Ni4xNzExNzExNjU5*_ga_3LRZM6TM9L*MTcxMjIyMDAzNi4xMy4xLjE3MTIyMjAyOTEuNDAuMC4w
+-->
+
+
+https://discuss.codecademy.com/t/is-it-necessary-to-use-to-link-local-files/472222/8?_gl=1*awr8h0*_ga*ODk0NDg4NDY4Ni4xNzExNzExNjU5*_ga_3LRZM6TM9L*MTcxMjIyMDAzNi4xMy4xLjE3MTIyMjAxNjEuNDMuMC4w
 
 
 
-
-<!-- The ./ in ./index.html tells the browser to look for the file in the current folder.
+<!-- The ./ in ./index.html tells the browser to look for the file in the current folder. -->
 
 
 
