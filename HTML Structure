@@ -146,6 +146,19 @@ https://discuss.codecademy.com/t/is-it-necessary-to-use-to-link-local-files/4722
 
 
 <!-- The ./ in ./index.html tells the browser to look for the file in the current folder. -->
+<!--  ../ in front of the filename tells the browser to look in the folder above the current folder.-->
+
+
+<!--
+
+./ = look in current folder 
+../ = look in the folder above the current 
+
+no / = when you referencing an item that is in same folder as the page where the link appears. eg. <a href="linkhere.html">Click Me</a>
+
+
+-->
+
 
 
 
