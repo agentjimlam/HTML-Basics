@@ -46,7 +46,7 @@ Closing tag — the second HTML tag used to end an HTML element. Closing tags ha
    Images (<img>) and videos (<video>) can be added by linking to an existing source.
 -->
 
-<p>How to print special characters in comment tag</p>
+<p>How to print special characters, see comment tag</p>
 <!--
 Special characters in HTML, such as '<', '>', '"' and '&' can be printed using the following format:
 
