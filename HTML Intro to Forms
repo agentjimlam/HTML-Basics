@@ -2,7 +2,25 @@
 
 <!-- 2/14 questions -->
 What is section element? Why not just use div element
-Ans: In a nutshell, semantic HTML is a graphic design method without the use of graphic.
+Ans: In a nutshell, semantic HTML is a graphic design method without the use of graphic. 
 
+The <div> element is the most general purpose element. It has no special meaning. 
+- <div> is for just solely styling purpose. 
+
+It’s purpose is to group content that is not semantically related. Because it is essentially meaningless to screen readers, it should be sparingly used.
+
+Section is for more meaningful for like this "Newsletter" section of page. 
+
+Because the contents of a <section> are meaningful when grouped together, they should have a “theme”. A <section>’s “theme” should be defined by including a heading element within the element, 
+often immediately after the opening tag.
+
+<section class="newsletter">
+  <h1>Subscribe to the Newsletter</h1>
+  <form> <!-- ... --> </form>
+</section>
+
+
+
+https://bitsofco.de/sectioning-content-in-html5/
 https://medium.com/web-dev-survey-from-kyoto/semantic-html-as-graphic-design-without-graphics-ac98e9c2d756
 
