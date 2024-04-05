@@ -133,6 +133,7 @@ Let’s get started!
    Congratulations on completing HTML Tables!
 </p>
 
+<!--
 <!DOCTYPE html>
 <html>
   <head>
@@ -206,7 +207,7 @@ Let’s get started!
     </table>
   </body>
 </html>
-
+-->
 
 <h2>Introduction to HTML Forms</h2>
 
