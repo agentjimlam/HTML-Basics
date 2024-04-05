@@ -6,14 +6,15 @@
    <p> 
      HTML is composed of elements. These elements structure the webpage and define its content. Let’s take a look at how they’re written.
      The diagram to the right displays an HTML paragraph element. As we can see, the paragraph element is made up of:
-
+[
   <ol>
     <li>An opening tag &quot;(&lt;p&gt;)&quot;  </li>
     <li>The content (“Hello World!” text) </li>
     <li>A closing tag (&lt;p&gt;) </li>
   </ol> 
-  A tag and the content between it is called an HTML element. There are many tags that we can use to organize and display text and other types of content, like images.
+    A tag and the content between it is called an HTML element. There are many tags that we can use to organize and display text and other types of content, like images.
   </p>
+]
 
 <p>Let’s quickly review each part of the element pictured:
 <ul>
