@@ -82,7 +82,27 @@ So to write <html> you would write in HTML: &lt;html&gt;
 
 <p> Let’s get started! </p>
 
-
+<div id="table">
+<table>
+  <tr> <!-- Row 1 -->
+    <th></th>
+    <th>Saturday</th>
+    <th>Sunday</th>
+  </tr>
+  <tr> <!-- Row 2 -->
+    <th>Morning</th>
+    <td rowspan="2">Work</td>
+    <td rowspan="3">Relax</td>
+  </tr>
+  <tr> <!-- Row 3 -->
+    <th>Afternoon</th>
+  </tr>
+  <tr> <!-- Row 4 -->
+    <th>Evening</th>
+    <td>Dinner</td>
+  </tr>
+</table>
+</div>
 
 
 <p>Great job! In this lesson, we learned how to create a table, add data to it, and section the table into smaller parts that make it easier to read.</p>
@@ -105,7 +125,9 @@ So to write <html> you would write in HTML: &lt;html&gt;
    Congratulations on completing HTML Tables!
 </p>
 
+
 ```
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -179,7 +201,11 @@ So to write <html> you would write in HTML: &lt;html&gt;
     </table>
   </body>
 </html>
+
+
 ```
+
+> Text that is a quote
 
 <div id="table2">
 <table>
