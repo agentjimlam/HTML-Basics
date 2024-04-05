@@ -48,6 +48,34 @@ Yes, in terms of POST DATA, the name attribute is the unique identifier of the s
 There can only be one element by a given id in a web page, but there can be multiple forms with their own Submit, and their name attributes could be the same.
 -->
 
+<!-- Why must there be a “name” and “for” attribute? Can’t the code work without them?
+Ans: for associates/links/pairs a label with an input element. This is needed for people who use disability tools.
+
+<!-- What is name attribute in <input> for?
+Ans: Name is used to associate the input field with the data send to the server.
+
+It’s also important that we include a name attribute for the <input> — without the name attribute, information in the <input> won’t be sent when the <form> is submitted. 
+The value of the value attribute is paired with the value of the name attribute and sent as text when the form is submitted. 
+For instance, if a user typed in “important details” in the text field created by our <input> element:
+
+rendered filled text field which reads 'important details' 
+
+When the form is submitted, the text: "first-text-field=important details" is sent to /example.html because the value of the name attribute is "first-text-field" and the value of value is "important details".
+
+
+Summary:
+1. <id> links label text to the input box. 
+2. <label>'s for="target id" tells machine the label is for which unique <input> that has an id attribute 
+
+<form action="/example.html" method="POST">
+  <label for="meal">What do you want to eat?</label>
+  <br>
+  <input type="text" name="food" id="meal">
+</form>
+
+3. <input>'s name attribute needed as it is linked to the value attribute, eg. name="username", value="halloween123", so when form is submitted, the string/text sent to the data collecting .html is "username=halloween123".
+So when at server side you want to deposit this string data there, you need to call the input name by its name = "username", so machine know it is from input box called "username" where machine take the data and store in the server.
+
 
 
 
