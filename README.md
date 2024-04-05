@@ -22,10 +22,10 @@ A tag and the content between it is called an HTML element. There are many tags 
 
     <ul>
      <li>HTML element (or simply, element) &ndash; a unit of content in an HTML document formed by HTML tags and the text or media it contains.</li>
-     <li>HTML Tag &ndash; the element name, surrounded by an opening (&lt;) and closing (&gt;) angle bracket.</li>
-     <li>Opening Tag &ndash; the first HTML tag used to start an HTML element. The tag type is surrounded by opening and closing angle brackets.</li>
-     <li>Content &ndash; The information (text or other elements) contained between the opening and closing tags of an HTML element.</li>
-     <li>Closing tag &ndash; the second HTML tag used to end an HTML element. Closing tags have a forward slash (/) inside of them, directly after the left angle bracket.</li>
+     <li>HTML Tag - the element name, surrounded by an opening (&lt;) and closing (&gt;) angle bracket.</li>
+     <li>Opening Tag - the first HTML tag used to start an HTML element. The tag type is surrounded by opening and closing angle brackets.</li>
+     <li>Content - The information (text or other elements) contained between the opening and closing tags of an HTML element.</li>
+     <li>Closing tag - the second HTML tag used to end an HTML element. Closing tags have a forward slash (/) inside of them, directly after the left angle bracket.</li>
     </ul>
   </p>
 
