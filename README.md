@@ -1,7 +1,6 @@
 <h1>Learning HTML Codecademy HTML module</h1>
 
-HTML = HyperText Markup Language :+1:
-
+<p>HTML = HyperText Markup Language :+1: </p>
 
 <body>
    <p> 
@@ -210,53 +209,6 @@ Let’s get started!
   </body>
 </html>
 ```
-<table>
-      <thead>
-        <tr>
-          <th scope="col">Company Name</th>
-          <th scope="col">Number of Items to Ship</th>
-          <th scope="col">Next Action</th>
-        </tr>
-      </thead>
-
-      <tbody>
-        <tr>
-          <td>Adam's Greenworks</td>
-          <td>14</td>
-          <td>Package Items</td>
-        </tr>
-        <tr>
-          <td>Davie's Burgers</td>
-          <td>2</td>
-          <td>Send Invoice</td>
-        </tr>
-        <tr>
-          <td>Baker's Bike Shop</td>
-          <td>3</td>
-          <td>Send Invoice</td>
-        </tr>
-        <tr>
-          <td>Miss Sally's Southern</td>
-          <td>4</td>
-          <td>Ship</td>
-        </tr>
-        <tr>
-          <td>Summit Resort Rentals</td>
-          <td>4</td>
-          <td>Ship</td>
-        </tr>
-        <tr>
-          <td>Strike Fitness</td>
-          <td colspan="2">1</td>
-          <td>Enter Order</td>
-        </tr>
-      </tbody>
-      <tfoot>
-        <td>Total</td>
-        <td>28</td>
-      </tfoot>
-    </table>
-
 
 
 <h2>Introduction to HTML Forms</h2>
@@ -267,6 +219,9 @@ Just like a physical form, an HTML <form> element is responsible for collecting 
 
 In this lesson, we’ll go over the structure and syntax of a <form> and the many elements that populate it.</p>
 
- </body>
+
+
+
+</body>
 
 
