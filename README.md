@@ -9,7 +9,7 @@ HTML = HyperText Markup Language
      The diagram to the right displays an HTML paragraph element. As we can see, the paragraph element is made up of:
 
 <ol>
-  <li>An opening tag "(&lt;p&gt;)"  </li>
+  <li>An opening tag &quot;(&lt;p&gt;)&quot;  </li>
   <li>The content (“Hello World!” text) </li>
   <li>A closing tag (&lt;p&gt;) </li>
 </ol>
