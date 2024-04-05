@@ -83,7 +83,7 @@ So to write <html> you would write in HTML: &lt;html&gt;
 
 <h2>Introduction to Tables</h2>
 
-<p> There are many websites on the Internet that display information like stock prices, sports scores, invoice data, and more. This data is tabular in nature, meaning that a table is often the best way of presenting the data. In this part of the course, we’ll learn how to use the HTML &lt;table&lt; element to present information in a two-dimensional table to the users. </p>
+<p> There are many websites on the Internet that display information like stock prices, sports scores, invoice data, and more. This data is tabular in nature, meaning that a table is often the best way of presenting the data. In this part of the course, we’ll learn how to use the HTML &lt;table&gt; element to present information in a two-dimensional table to the users. </p>
 
 <p> Let’s get started! </p>
 
@@ -112,20 +112,20 @@ So to write <html> you would write in HTML: &lt;html&gt;
 
 <p>Great job! In this lesson, we learned how to create a table, add data to it, and section the table into smaller parts that make it easier to read.</p>
 
-<p>
-<ol> Let’s review what we’ve learned so far:
-   <li>The &lt;table&gt; element creates a table.</li>
-   <li>The &lt;tr&gt; element adds rows to a table.</li>
-   <li>To add data to a row, you can use the &lt;td&lg; element.</li>
-   <li>Table headings clarify the meaning of data. Headings are added with the &lt;th&gt; element.</li>
-   <li>Table data can span columns using the colspan attribute.</li>
-   <li>Table data can span rows using the rowspan attribute.</li>
-   <li>Tables can be split into three main sections: a head, a body, and a footer.</li>
-   <li>A table’s head is created with the &lt;thead&gt; element.</li>
-   <li>A table’s body is created with the &lt;tbody&gt; element.</li>
-   <li>A table’s footer is created with the &lt;tfoot&gt; element.</li>
-   <li>All the CSS properties you learned about in this course can be applied to tables and their data.</li>
-</ol>
+<p>Let’s review what we’ve learned so far: 
+  <ol>
+     <li>The &lt;table&gt; element creates a table.</li>
+     <li>The &lt;tr&gt; element adds rows to a table.</li>
+     <li>To add data to a row, you can use the &lt;td&lg; element.</li>
+     <li>Table headings clarify the meaning of data. Headings are added with the &lt;th&gt; element.</li>
+     <li>Table data can span columns using the colspan attribute.</li>
+     <li>Table data can span rows using the rowspan attribute.</li>
+     <li>Tables can be split into three main sections: a head, a body, and a footer.</li>
+     <li>A table’s head is created with the &lt;thead&gt; element.</li>
+     <li>A table’s body is created with the &lt;tbody&gt; element.</li>
+     <li>A table’s footer is created with the &lt;tfoot&gt; element.</li>
+     <li>All the CSS properties you learned about in this course can be applied to tables and their data.</li>
+  </ol>
       
    Congratulations on completing HTML Tables!
 </p>
