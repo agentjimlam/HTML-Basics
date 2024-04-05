@@ -30,21 +30,22 @@ Closing tag — the second HTML tag used to end an HTML element. Closing tags ha
 
     </p>
 
-   <p> I put the rest of notes, review notes in comment tag. Open editor to view </p>
-<!--
-   Let’s review what you’ve learned so far:
-
-   HTML stands for HyperText Markup Language and is used to create the structure and content of a webpage.
-   Most HTML elements contain opening and closing tags with raw text or other HTML tags between them.
-   HTML elements can be nested inside other elements. The enclosed element is the child of the enclosing parent element.
-   Any visible content should be placed within the opening and closing <body> tags.
-   Headings and sub-headings, <h1> to <h6> tags, are used to provide titles for sections of content.
-   <p>, <span> and <div> tags specify text or blocks.
-   The <em> and <strong> tags are used to emphasize text.
-   Line breaks are created with the <br> tag.
-   Ordered lists (<ol>) are numbered and unordered lists (<ul>) are bulleted.
-   Images (<img>) and videos (<video>) can be added by linking to an existing source.
--->
+   <p> I put the rest of notes, review notes in comment tag. Open editor to view 
+   
+   <p>Let’s review what you’ve learned so far:
+   <ol>
+     <li>HTML stands for HyperText Markup Language and is used to create the structure and content of a webpage.</li>
+     <li>Most HTML elements contain opening and closing tags with raw text or other HTML tags between them.</li>
+     <li>HTML elements can be nested inside other elements. The enclosed element is the child of the enclosing parent element.</li>
+     <li>Any visible content should be placed within the opening and closing &lt;body&gt; tags.</li>
+     <li>Headings and sub-headings, &lt;h1&gt; to &lt;h6&gt; tags, are used to provide titles for sections of content.</li>
+     <li>&lt;p&gt;, &lt;span&gt; and &lt;div&gt; tags specify text or blocks.</li>
+     <li>The &lt;em&gt; and &lt;strong&gt; tags are used to emphasize text.</li>
+     <li>Line breaks are created with the &lt;br&gt; tag.</li>
+     <li>Ordered lists (&lt;ol&gt;) are numbered and unordered lists (&lt;ul&gt;) are bulleted.</li>
+     <li>Images (&lt;img&gt;) and videos (&lt;video&gt;) can be added by linking to an existing source.</li>
+  </ol>      
+  </p>
 
 <p>How to print special characters, see comment tag</p>
 
@@ -63,12 +64,12 @@ So to write <html> you would write in HTML: &lt;html&gt;
 -->
 
 
-
+<h2>HTML structure</h2> 
 
 <p>Let’s review what you’ve learned this lesson:
 <ol>
    <li>The <!DOCTYPE html> declaration should always be the first line of code in your HTML files. This lets the browser know what version of HTML to expect.</li>
-   <li>The <html> element will contain all of your HTML code.</li>
+   <li>The &lt;html&gt; element will contain all of your HTML code.</li>
    <li>Information about the web page, like the title, belongs within the <head> of the page.</li>
    <li>You can add a title to your web page by using the <title> element, inside of the head.</li>
    <li>A webpage’s title appears in a browser’s tab.</li>
@@ -79,9 +80,8 @@ So to write <html> you would write in HTML: &lt;html&gt;
    <li>Comments are written in HTML using the following syntax: <!-- comment -->.</li>
 </p>
 
-
-<p>
-   Introduction to Tables
+<h2>Introduction to Tables</h2>
+<p> 
 There are many websites on the Internet that display information like stock prices, sports scores, invoice data, and more. This data is tabular in nature, meaning that a table is often the best way of presenting the data.
 In this part of the course, we’ll learn how to use the HTML <table> element to present information in a two-dimensional table to the users.
 
@@ -113,6 +113,99 @@ Let’s get started!
 </div>
 
 
+<p>
+   Great job! In this lesson, we learned how to create a table, add data to it, and section the table into smaller parts that make it easier to read.
+
+<ol> Let’s review what we’ve learned so far:
+   <li>The &lt;table&gt; element creates a table.</li>
+   <li>The &lt;tr&gt; element adds rows to a table.</li>
+   <li>To add data to a row, you can use the &lt;td&lg; element.</li>
+   <li>Table headings clarify the meaning of data. Headings are added with the &lt;th&gt; element.</li>
+   <li>Table data can span columns using the colspan attribute.</li>
+   <li>Table data can span rows using the rowspan attribute.</li>
+   <li>Tables can be split into three main sections: a head, a body, and a footer.</li>
+   <li>A table’s head is created with the &lt;thead&gt; element.</li>
+   <li>A table’s body is created with the &lt;tbody&gt; element.</li>
+   <li>A table’s footer is created with the &lt;tfoot&gt; element.</li>
+   <li>All the CSS properties you learned about in this course can be applied to tables and their data.</li>
+</ol>
+      
+   Congratulations on completing HTML Tables!
+</p>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ship To It - Company Packing List</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400"
+      rel="stylesheet"
+    />
+    <link href="style.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <ul class="navigation">
+      <li>
+        <img
+          src="https://content.codecademy.com/courses/web-101/unit-9/htmlcss1-img_logo-shiptoit.png"
+          height="20px;"
+        />
+      </li>
+      <li class="active">Action List</li>
+      <li>Profiles</li>
+      <li>Settings</li>
+    </ul>
+
+    <div class="search">Search the table</div>
+
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Company Name</th>
+          <th scope="col">Number of Items to Ship</th>
+          <th scope="col">Next Action</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Adam's Greenworks</td>
+          <td>14</td>
+          <td>Package Items</td>
+        </tr>
+        <tr>
+          <td>Davie's Burgers</td>
+          <td>2</td>
+          <td>Send Invoice</td>
+        </tr>
+        <tr>
+          <td>Baker's Bike Shop</td>
+          <td>3</td>
+          <td>Send Invoice</td>
+        </tr>
+        <tr>
+          <td>Miss Sally's Southern</td>
+          <td>4</td>
+          <td>Ship</td>
+        </tr>
+        <tr>
+          <td>Summit Resort Rentals</td>
+          <td>4</td>
+          <td>Ship</td>
+        </tr>
+        <tr>
+          <td>Strike Fitness</td>
+          <td colspan="2">1</td>
+          <td>Enter Order</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <td>Total</td>
+        <td>28</td>
+      </tfoot>
+    </table>
+  </body>
+</html>
 
 
  </body>
