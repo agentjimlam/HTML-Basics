@@ -5,21 +5,19 @@
 <body>
    <p> 
      HTML is composed of elements. These elements structure the webpage and define its content. Let’s take a look at how they’re written.
-     The diagram to the right displays an HTML paragraph element. As we can see, the paragraph element is made up of
+     The diagram to the right displays an HTML paragraph element. As we can see, the paragraph element is made up of:
 
-<ol>
-  <li>An opening tag &quot;(&lt;p&gt;)&quot;  </li>
-  <li>The content (“Hello World!” text) </li>
-  <li>A closing tag (&lt;p&gt;) </li>
-</ol>
-
-A tag and the content between it is called an HTML element. There are many tags that we can use to organize and display text and other types of content, like images.
-</p>
+  <ol>
+    <li>An opening tag &quot;(&lt;p&gt;)&quot;  </li>
+    <li>The content (“Hello World!” text) </li>
+    <li>A closing tag (&lt;p&gt;) </li>
+  </ol> 
+  A tag and the content between it is called an HTML element. There are many tags that we can use to organize and display text and other types of content, like images.
+  </p>
 
   <p>
    Let’s quickly review each part of the element pictured:
 
-```
   <ul>
      <li>HTML element (or simply, element) &ndash; a unit of content in an HTML document formed by HTML tags and the text or media it contains.</li>
      <li>HTML Tag - the element name, surrounded by an opening (&lt;) and closing (&gt;) angle bracket.</li>
@@ -28,7 +26,6 @@ A tag and the content between it is called an HTML element. There are many tags 
      <li>Closing tag - the second HTML tag used to end an HTML element. Closing tags have a forward slash (/) inside of them, directly after the left angle bracket.</li>
     </ul>
   </p>
-```
 
    <p> I put the rest of notes, review notes in comment tag. Open editor to view </p>
 
