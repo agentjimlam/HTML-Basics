@@ -5,7 +5,7 @@
 <body>
    <p> 
      HTML is composed of elements. These elements structure the webpage and define its content. Let’s take a look at how they’re written.
-     The diagram to the right displays an HTML paragraph element. As we can see, the paragraph element is made up of:
+     The diagram to the right displays an HTML paragraph element. As we can see, the paragraph element is made up of
 
 <ol>
   <li>An opening tag &quot;(&lt;p&gt;)&quot;  </li>
