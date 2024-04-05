@@ -66,18 +66,19 @@ So to write <html> you would write in HTML: &lt;html&gt;
 <h2>HTML structure</h2> 
 
 <p>Let’s review what you’ve learned this lesson:
-<ol>
-   <li>The <!DOCTYPE html> declaration should always be the first line of code in your HTML files. This lets the browser know what version of HTML to expect.</li>
-   <li>The &lt;html&gt; element will contain all of your HTML code.</li>
-   <li>Information about the web page, like the title, belongs within the <head> of the page.</li>
-   <li>You can add a title to your web page by using the <title> element, inside of the head.</li>
-   <li>A webpage’s title appears in a browser’s tab.</li>
-   <li>Anchor tags (&lt;a&gt;) are used to link to internal pages, external pages or content on the same page.</li>
-   <li>You can create sections on a webpage and jump to them using <a> tags and adding ids to the elements you wish to jump to.</li>
-   <li>Whitespace between HTML elements helps make code easier to read while not changing how elements appear in the browser.</li>
-   <li>Indentation also helps make code easier to read. It makes parent-child relationships visible.</li>
-   <li>Comments are written in HTML using the following syntax: <!-- comment -->.</li>
-</p>
+  <ol>
+     <li>The <!DOCTYPE html> declaration should always be the first line of code in your HTML files. This lets the browser know what version of HTML to expect.</li>
+     <li>The &lt;html&gt; element will contain all of your HTML code.</li>
+     <li>Information about the web page, like the title, belongs within the <head> of the page.</li>
+     <li>You can add a title to your web page by using the <title> element, inside of the head.</li>
+     <li>A webpage’s title appears in a browser’s tab.</li>
+     <li>Anchor tags (&lt;a&gt;) are used to link to internal pages, external pages or content on the same page.</li>
+     <li>You can create sections on a webpage and jump to them using <a> tags and adding ids to the elements you wish to jump to.</li>
+     <li>Whitespace between HTML elements helps make code easier to read while not changing how elements appear in the browser.</li>
+     <li>Indentation also helps make code easier to read. It makes parent-child relationships visible.</li>
+     <li>Comments are written in HTML using the following syntax: &lt;!-- comment --&gt;.</li>
+     </ol>
+  </p>
 
 <h2>Introduction to Tables</h2>
 <p> 
