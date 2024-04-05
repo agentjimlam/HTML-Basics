@@ -24,3 +24,9 @@ often immediately after the opening tag.
 https://bitsofco.de/sectioning-content-in-html5/
 https://medium.com/web-dev-survey-from-kyoto/semantic-html-as-graphic-design-without-graphics-ac98e9c2d756
 
+
+
+<!-- 3/14 questions -->
+Why <input> element no need a closing tag> 
+Ans: <input> is among those few that we call void elements
+
