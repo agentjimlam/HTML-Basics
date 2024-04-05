@@ -114,9 +114,9 @@ Let’s get started!
 </div>
 
 
-<p>
-   Great job! In this lesson, we learned how to create a table, add data to it, and section the table into smaller parts that make it easier to read.
+<p>Great job! In this lesson, we learned how to create a table, add data to it, and section the table into smaller parts that make it easier to read.</p>
 
+<p>
 <ol> Let’s review what we’ve learned so far:
    <li>The &lt;table&gt; element creates a table.</li>
    <li>The &lt;tr&gt; element adds rows to a table.</li>
