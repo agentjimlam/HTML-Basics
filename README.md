@@ -83,7 +83,7 @@ So to write <html> you would write in HTML: &lt;html&gt;
 <h2>Introduction to Tables</h2>
 <p> 
 There are many websites on the Internet that display information like stock prices, sports scores, invoice data, and more. This data is tabular in nature, meaning that a table is often the best way of presenting the data.
-In this part of the course, we’ll learn how to use the HTML <table> element to present information in a two-dimensional table to the users.
+In this part of the course, we’ll learn how to use the HTML &lt;table&lt; element to present information in a two-dimensional table to the users.
 
 Let’s get started!
    
@@ -133,7 +133,7 @@ Let’s get started!
    Congratulations on completing HTML Tables!
 </p>
 
-<!--
+<>
 <!DOCTYPE html>
 <html>
   <head>
@@ -207,7 +207,7 @@ Let’s get started!
     </table>
   </body>
 </html>
--->
+<>
 
 <h2>Introduction to HTML Forms</h2>
 
