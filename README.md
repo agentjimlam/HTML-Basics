@@ -21,7 +21,7 @@ A tag and the content between it is called an HTML element. There are many tags 
    Let’s quickly review each part of the element pictured:
 
 ```
-    <ul>
+  <ul>
      <li>HTML element (or simply, element) &ndash; a unit of content in an HTML document formed by HTML tags and the text or media it contains.</li>
      <li>HTML Tag - the element name, surrounded by an opening (&lt;) and closing (&gt;) angle bracket.</li>
      <li>Opening Tag - the first HTML tag used to start an HTML element. The tag type is surrounded by opening and closing angle brackets.</li>
@@ -30,6 +30,7 @@ A tag and the content between it is called an HTML element. There are many tags 
     </ul>
   </p>
 ```
+
    <p> I put the rest of notes, review notes in comment tag. Open editor to view </p>
    
    <p>Let’s review what you’ve learned so far:
@@ -134,7 +135,7 @@ Let’s get started!
    Congratulations on completing HTML Tables!
 </p>
 
-<>
+```
 <!DOCTYPE html>
 <html>
   <head>
@@ -208,7 +209,7 @@ Let’s get started!
     </table>
   </body>
 </html>
-<>
+```
 
 <h2>Introduction to HTML Forms</h2>
 
