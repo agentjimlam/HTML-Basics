@@ -39,3 +39,16 @@ A hint to the user of what can be entered in the control . The placeholder text 
 For example, this is the search input field from Rotten Tomatoes:
 <input type="text" name="search" class="form-control" placeholder="Search movies, TV, actors, more..." id="fullscreen-search-term" autocomplete="off" value="">
 
+
+<!-- What is difference between name attribute and <id>?
+Ans: <id> is a higher power, it is to give unique identifier to certain elements. There can only be one element by a given id in a web page, 
+but there can be multiple forms with their own Submit, and their name atrributes can be the same. 
+
+Yes, in terms of POST DATA, the name attribute is the unique identifier of the submitted value. id is the unique identifier of the DOM element. An id selector has higher specificity, more so than a name attribute selector. 
+There can only be one element by a given id in a web page, but there can be multiple forms with their own Submit, and their name attributes could be the same.
+-->
+
+
+
+
+
