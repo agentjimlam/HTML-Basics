@@ -207,7 +207,9 @@ So to write <html> you would write in HTML: &lt;html&gt;
 
 > Text that is a quote
 
-<div id="table2">
+
+
+
 <table>
       <thead>
         <tr>
@@ -254,7 +256,9 @@ So to write <html> you would write in HTML: &lt;html&gt;
         <td>28</td>
       </tfoot>
     </table>
-</div>
+
+
+
 
 <h2>Introduction to HTML Forms</h2>
 
