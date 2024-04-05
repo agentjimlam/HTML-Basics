@@ -1,6 +1,6 @@
 <h1>Learning HTML Codecademy HTML module</h1>
 
-HTML = HyperText Markup Language
+HTML = HyperText Markup Language :+1:
 
 
 <body>
