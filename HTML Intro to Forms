@@ -29,4 +29,13 @@ https://medium.com/web-dev-survey-from-kyoto/semantic-html-as-graphic-design-wit
 <!-- 3/14 questions -->
 Why <input> element no need a closing tag> 
 Ans: <input> is among those few that we call void elements
+--> 
+
+<!-- How can I create a default value that disappears when the user types in the form?
+Ans: the placeholder attribute
+
+A hint to the user of what can be entered in the control . The placeholder text must not contain carriage returns or line-feeds. This attribute applies when the value of the type attribute is text , search , tel , url or email ; otherwise it is ignored.
+
+For example, this is the search input field from Rotten Tomatoes:
+<input type="text" name="search" class="form-control" placeholder="Search movies, TV, actors, more..." id="fullscreen-search-term" autocomplete="off" value="">
 
