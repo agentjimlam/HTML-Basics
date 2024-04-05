@@ -8,29 +8,28 @@ HTML = HyperText Markup Language
      HTML is composed of elements. These elements structure the webpage and define its content. Let’s take a look at how they’re written.
      The diagram to the right displays an HTML paragraph element. As we can see, the paragraph element is made up of:
 
-<ol>
-  <li>An opening tag "(p)"  </li>
+&lt;ol&gt;
+  <li>An opening tag "(&lt;p&gt;)"  </li>
   <li>The content (“Hello World!” text) </li>
-  <li>A closing tag (/p) </li>
-</ol>
+  <li>A closing tag (&lt;p&gt;) </li>
+&lt;/ol&gt;
 
 A tag and the content between it is called an HTML element. There are many tags that we can use to organize and display text and other types of content, like images.
+</p>
 
-Let’s quickly review each part of the element pictured:
+  <p>
+   Let’s quickly review each part of the element pictured:
 
-HTML element (or simply, element) — a unit of content in an HTML document formed by HTML tags and the text or media it contains.
+    <ul>
+     <li>HTML element (or simply, element) — a unit of content in an HTML document formed by HTML tags and the text or media it contains.</li>
+     <li>HTML Tag — the element name, surrounded by an opening (&lt;) and closing (&gt;) angle bracket.</li>
+     <li>Opening Tag — the first HTML tag used to start an HTML element. The tag type is surrounded by opening and closing angle brackets.</li>
+     <li>Content — The information (text or other elements) contained between the opening and closing tags of an HTML element.</li>
+     <li>Closing tag — the second HTML tag used to end an HTML element. Closing tags have a forward slash (/) inside of them, directly after the left angle bracket.</li>
+    </ul>
+  </p>
 
-HTML Tag — the element name, surrounded by an opening (<) and closing (>) angle bracket.
-
-Opening Tag — the first HTML tag used to start an HTML element. The tag type is surrounded by opening and closing angle brackets.
-
-Content — The information (text or other elements) contained between the opening and closing tags of an HTML element.
-
-Closing tag — the second HTML tag used to end an HTML element. Closing tags have a forward slash (/) inside of them, directly after the left angle bracket.
-
-    </p>
-
-   <p> I put the rest of notes, review notes in comment tag. Open editor to view 
+   <p> I put the rest of notes, review notes in comment tag. Open editor to view </p>
    
    <p>Let’s review what you’ve learned so far:
    <ol>
