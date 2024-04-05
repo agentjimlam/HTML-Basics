@@ -15,8 +15,7 @@
   A tag and the content between it is called an HTML element. There are many tags that we can use to organize and display text and other types of content, like images.
   </p>
 
-<p>
-   Let’s quickly review each part of the element pictured:
+<p>Let’s quickly review each part of the element pictured:
 <ul>
    <li>HTML element (or simply, element) &ndash; a unit of content in an HTML document formed by HTML tags and the text or media it contains.</li>
    <li>HTML Tag - the element name, surrounded by an opening (&lt;) and closing (&gt;) angle bracket.</li>
