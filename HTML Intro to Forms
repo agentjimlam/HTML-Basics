@@ -103,6 +103,36 @@ YES</label>
 Note above that the label wraps the input control. In that case we do not apply an ID attribute since the control is a child of the label.
 -->
 
+<!-- 12/14 Questions -->
+<!-- How can we make transparent text that disappears when replaced?
+Ans: Use placeholder attribute
+<textarea id="extra" name="extra" rows="3" cols="40" placeholder="Special Instructons..."></textarea>
+-->
+
+<!-- Why is textarea seperate from input? Is it even necessary?
+Ans: In HTML5, the default type is text so we don’t need to declare a type if it is going to be text. TEXTAREA allows line breaks, INPUT does not (I believe; correct me if I’m wrong).
+
+As for the type, I’m not even sure we can declare a different type than ‘text’, or even need to in the older iterations of HTML. It’s defined as a text area.
+
+Ideally, we squeeze as much functionality out of our HTML as possible, before introducing styles; and, we squeeze as much behavior out of our CSS as possible before introducing JavaScript.
+
+When inputs are expected to be bits of data, then <input> and when expecting prose, <textarea>. HTML5 added a significant number of types to the input element. Be sure to look up these elements at w3.org 70 or MDN.
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
