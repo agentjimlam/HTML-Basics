@@ -1,0 +1,22 @@
+
+<!-- Question 5/6 -->
+
+<!-- Can some one explain what does “[0-9]{14,16}” and [a-zA-Z0-9]+ mean?
+Ans: 
+
+[0-9]{14,16}
+
+The square brackets denote a class which is akin to a set of all digits 0 thru 9 inclusive. The curly braces denote a character count, above that would be minimum 14, maximum 16.
+
+[a-zA-Z0-9]+
+
+Again, this is a class that contains all the lowercase letters a thru z, all the uppercase letters A thru Z and all the digits 0 thru 9. The plus sign means one or more times.
+https://discuss.codecademy.com/t/what-are-quantifiers-the-and-14-16/437158?_gl=1*7nefg8*_ga*ODk0NDg4NDY4Ni4xNzExNzExNjU5*_ga_3LRZM6TM9L*MTcxMjY3MjI3Ny4yMi4xLjE3MTI2NzU0NzUuNjAuMC4w
+
+
+
+
+
+
+
+
