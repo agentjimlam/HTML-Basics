@@ -218,7 +218,7 @@ So to write <html> you would write in HTML: &lt;html&gt;
 
 Just like a physical form, an HTML <form> element is responsible for collecting information to send somewhere else. Every time we browse the internet we come into contact with many forms and we might not even realize it. There’s a good chance that if you’re typing into a text field or providing an input, the field that you’re typing into is part of a <form>!
 
-In this lesson, we’ll go over the structure and syntax of a <form> and the many elements that populate it.</p>
+In this lesson, we’ll go over the structure and syntax of a &lt;form&gt; and the many elements that populate it.</p>
 
 <p>
 Nice work interacting with the extremely common and useful <form> element!
