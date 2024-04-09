@@ -220,6 +220,33 @@ Just like a physical form, an HTML <form> element is responsible for collecting 
 
 In this lesson, we’ll go over the structure and syntax of a <form> and the many elements that populate it.</p>
 
+<p>
+Nice work interacting with the extremely common and useful <form> element!
+
+In this lesson we went over:
+<ul>
+<li>The purpose of a &lt;form&gt; is to allow users to input information and send it.</li>
+<li>The &lt;form&gt;‘s action attribute determines where the form’s information goes.</li>
+<li>The &lt;form&gt;‘s method attribute determines how the information is sent and processed.</li>
+      <ul>
+        <li>To add fields for users to input information we use the &lt;input&gt; element and set the type attribute to a field of our choosing:</li>
+        <li>Setting type to "text" creates a single row field for text input.</li>
+        <li>Setting type to "password" creates a single row field that censors text input.</li>
+        <li>Setting type to "number" creates a single row field for number input.</li>
+        <li>Setting type to "range" creates a slider to select from a range of numbers.</li>
+        <li>Setting type to "checkbox" creates a single checkbox that can be paired with other checkboxes.</li>
+        <li>Setting type to "radio" creates a radio button that can be paired with other radio buttons.</li>
+        <li>Setting type to "text" and adding the list attribute will pair the &lt;input&gt; with a &lt;datalist&gt; element if the list of &lt;input&gt; and the id of <datalist> are the same.</li>
+        <li>Setting type to "submit" creates a submit button.</li>
+      </ul>      
+<li>A &lt;select&gt; element is populated with &lt;option&gt; elements and renders a dropdown list selection.</li>
+<li>A &lt;datalist&gt; element is populated with &lt;option&gt; elements and works with an &lt;input&gt; to search through choices.</li>
+<li>A &lt;textarea&gt; element is a text input field that has a customizable area.</li>
+<li>When a &lt;form&gt; is submitted, the name of the fields that accept input and the value of those fields are sent as name=value pairs.</li>
+<li>Using the &lt;form&gt; element in conjunction with the other elements listed above allows us to create sites that take into consideration the wants and needs of our users. Take the opportunity to take what you’ve learned, and apply it!</li>
+</ul>
+</p>
+
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
