@@ -77,6 +77,33 @@ Summary:
 So when at server side you want to deposit this string data there, you need to call the input name by its name = "username", so machine know it is from input box called "username" where machine take the data and store in the server.
 
 
+<!-- 9/14 Questions -->
+<!-- Why do we put yes in the `value` and in the `label`?
+Ans: When we give an INPUT element an ID attribute, it is there as a hook for a LABEL.
+
+<input id=“burger” name=“burger” value="yes" type=“radio”>
+<label for="burger">YES</label>
+or
+
+<label for="burger">YES</label>
+<input id=“burger” name=“burger” value="yes" type=“radio”>
+The text in the label goes to the screen, the value goes to the POST data with the name burger
+
+burger = 'yes'
+Extended
+
+<label>YES
+<input name=“burger” value="yes" type=“radio”>
+</label>
+or
+
+<label>
+<input name=“burger” value="yes" type=“radio”>
+YES</label>
+Note above that the label wraps the input control. In that case we do not apply an ID attribute since the control is a child of the label.
+-->
+
+
 
 
 
