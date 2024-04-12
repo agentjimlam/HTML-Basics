@@ -312,7 +312,22 @@ figcaption follows the figure img, for grouping purposes.
 
 
 
+Congrats on completing this lesson on Semantic HTML! Now that you know the benefits of Semantic HTML and how to use it, you can incorporate semantic elements into your website to make it more accessible and to make the code easier to read.
 
+Let’s review some of the topics we covered throughout the lesson:
+<ul>
+<li>Semantic HTML introduces meaning to a page through specific elements that provide context as to what is in between the tags.</li>
+<li>Semantic HTML is a modern standard and makes a website accessible for people who use screen readers to translate the webpage and improves your website’s SEO.</li>
+<li>&lt;header&gt;, &lt;nav&gt; , &lt;main&gt; and &lt;footer&gt; create the basic structure of the webpage.</li>
+<li>&lt;section&gt; defines elements in a document, such as chapters, headings, or any other area of the document with the same theme.</li>
+<li>&lt;article&gt; holds content that makes sense on its own such as articles, blogs, comments, etc.</li>
+<li>&lt;aside&gt; contains information that is related to the main content, but not required in order to understand the dominant information.</li>
+<li>&lt;figure&gt; encapsulates all types of media.</li>
+<li>&lt;figcaption&gt; is used to describe the media in  &lt;figure &gt;.</li>
+<li>&lt;video&gt;, &lt;embed&gt;, and &lt;audio&gt; elements are used for media files.</li>
+</ul>
+   
+Now, apply this knowledge to become a better Web Developer.
 
 
 
