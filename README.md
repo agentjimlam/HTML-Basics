@@ -303,3 +303,11 @@ Easy to Understand: Semantic HTML also makes the website’s source code easier 
 </body>
 
 
+What is difference between main and article?
+
+&lt;main&gt; is for main article
+&lt;article&gt; is for secondary articles
+
+
+
+
