@@ -283,7 +283,7 @@ Let’s quickly recap:
 </p>
 
 
-<h2 Intro to Semantic HTML>
+<h2>Intro to Semantic HTML</h2> 
 
 Why use Semantic HTML?
 
