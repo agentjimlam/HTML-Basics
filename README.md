@@ -300,13 +300,37 @@ Easy to Understand: Semantic HTML also makes the website’s source code easier 
   <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
 </picture>
 
-</body>
+
 
 
 What is difference between main and article?
 
 &lt;main&gt; is for main article
 &lt;article&gt; is for secondary articles
+
+figcaption follows the figure img, for grouping purposes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
 
 
 
