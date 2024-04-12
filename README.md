@@ -310,7 +310,7 @@ What is difference between main and article?
 
 figcaption follows the figure img, for grouping purposes.
 
-
+<br/>
 
 Congrats on completing this lesson on Semantic HTML! Now that you know the benefits of Semantic HTML and how to use it, you can incorporate semantic elements into your website to make it more accessible and to make the code easier to read.
 
