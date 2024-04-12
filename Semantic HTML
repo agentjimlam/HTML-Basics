@@ -1,0 +1,22 @@
+<!-- Questions 7/9 
+Do you have to use a seperate tag for Audio Source? Can you use it like an img tag?
+
+You don’t have to do it the way they showed it in the lesson, can can use the <audio> tag in the same way as the <video> tag.
+
+Like:
+
+<audio 
+    controls 
+    src="/media/examples/t-rex-roar.mp3">Your browser does not support the 
+    <code>audio</code> element.
+</audio>
+One thing to take into account is that not all browsers support the same file types, so you might want to use multiple sources of different types of audio file, in that case, you will want to do it like they did it in the lesson:
+
+<audio controls>
+  <source src="myAudio.mp3" type="audio/mpeg">
+  <source src="myAudio.ogg" type="audio/ogg">
+  <p>Your browser doesn't support HTML5 audio. Here is
+     a <a href="myAudio.mp4">link to the audio</a> instead.</p>
+</audio>
+Take a look at the example shown here: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio#Attributes 736
+-->
